@@ -3,3 +3,5 @@ id_rsa.pub
 terraform.tfvars
 .terraform
 local.tf
+terraformtfstate
+terraformtfstate.backup

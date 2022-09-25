@@ -1,4 +1,5 @@
 locals {
-  zone_name   = "web.codomation.tk"
+  zone_name   = "codomation.tk"
+  record_name = "web.codomation.tk"
 }
 
