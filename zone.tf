@@ -9,7 +9,7 @@ resource "aws_route53_zone" "main" {
 resource "aws_route53_record" "test-cname" {
   zone_id = aws_route53_zone.main.zone_id
   name    = local.record_name
-  type    = "CNAME"
+  type    = "A"
   ttl     = "300"
   records = ["${aws_instance.web.public_ip}"]
 }
