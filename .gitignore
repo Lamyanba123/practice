@@ -2,6 +2,6 @@ id_rsa
 id_rsa.pub
 terraform.tfvars
 .terraform
-local.tf
+locals.tf
 terraform.tfstate
 terraform.tfstate.backup
